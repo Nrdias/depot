@@ -1,0 +1,38 @@
+.carts {
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    padding: 0.5em;
+  }
+  td.quantity {
+    white-space: nowrap;
+  }
+  td.quantity::after {
+    content: " ×";
+  }
+  td.price {
+    font-weight: bold;
+    text-align: right;
+  }
+  tfoot {
+    border-top: solid thin;
+    th, td.price {
+      font-weight: bold;
+    }
+    th {
+      text-align: right;
+    }
+  }
+  input[type="submit"] {
+    background-color: #881;
+    border-radius: 0.354em;
+    border: solid thin #441;
+    color: white;
+    font-size: 1em;
+    padding: 0.354em 1em;
+  }
+  input[type="submit"]:hover {
+    background-color: #992;
+  }
+}
