@@ -1,16 +1,22 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyTitle
+  title: MyTitle_1
   description: MyText
   image_url: 7apps.jpg
   price: 9.99
 
 two:
-  title: MyString
+  title: MyString_1
   description: MyText
   image_url: 7apps.jpg
   price: 9.99
+
+three:
+    title: MyString_2
+    description: MyText
+    image_url: 7apps.jpg
+    price: 9.99
 
 ruby:
   title: Programming Ruby 1.9

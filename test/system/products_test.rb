@@ -12,12 +12,12 @@ class ProductsTest < ApplicationSystemTestCase
 
   test "should create product" do
     visit products_url
-    click_on "New product"
+    click_on "New Product"
 
-    fill_in "Description", with: @product.description
-    fill_in "Image url", with: @product.image_url
-    fill_in "Price", with: @product.price
-    fill_in "Title", with: @product.title
+    fill_in "Description", with: "MyText"
+    fill_in "Image url", with: "ruby.jpg"
+    fill_in "Price", with: "9.99"
+    fill_in "Title", with: "MyString"
     click_on "Create Product"
 
     assert_text "Product was successfully created"
